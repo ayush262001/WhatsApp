@@ -1,0 +1,31 @@
+.sidebar_chat{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    color: gray;
+    font-family: Montserrat Alternates !important;
+    font-weight: 400;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.sidebar_chat:hover{
+    background-color: rgb(241, 240, 240);
+}
+
+.name{
+    color: black;
+    font-family: Montserrat Alternates !important;
+}
+
+.last_message{
+    font-family: Montserrat Alternates !important;
+}
+
+.sidebar_chat_right{
+    flex: 0.7;
+}
+
+.sidebar_chat_left{
+    flex: 0.15;
+}

@@ -1,0 +1,113 @@
+.chat{
+    display:flex;
+    flex-direction:column;
+
+    flex: 0.65;
+
+    color: black;
+    font-family: Montserrat Alternates !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.chat_header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+
+.chat_header_left{
+    display:flex;
+    align-items:center;
+}
+
+.chat_header_right{
+    display:flex;
+    align-items:center;
+}
+
+.chatroom_details{
+    display:flex;
+    flex-direction:column;
+    margin-left: 10px;
+}
+
+.details{
+    color: darkslategrey;
+}
+
+.chat_body{
+    flex: 1;
+    background-color: rgba(216, 199, 189, 0.4);
+    overflow-y: scroll;
+    padding: 30px;
+}
+
+.chat_body::-webkit-scrollbar{
+    display: none;
+}
+
+.message{
+    font-family: Montserrat Alternates !important;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    margin-bottom:30px;
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    position: relative;
+
+    color: darkslategrey;
+}
+
+.message_timestamp{
+    font-size: xx-small;
+    margin-left: 10px;
+}
+
+.name_message{
+    font-size:xx-small;
+    position: absolute;
+    top: -15px;
+    font-weight:600;
+    color: black;
+}
+
+.reciever{
+    margin-left: auto;
+    background-color: rgb(203, 255, 203);
+}
+
+.chat_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.type_message_here{
+    display: flex !important;
+    width: 100% !important;
+    padding: 10px 10px !important;
+    background-color:#fff;
+    border: none !important;
+    outline: none;
+    border-radius:50px;
+    font-family: Montserrat Alternates !important;
+    color: darkslategrey;
+}
+
+.form_send{
+    display: flex !important;
+    width: 90% !important;
+}
+
+.send_button{
+    display: none;
+}
